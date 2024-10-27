@@ -1,0 +1,17 @@
+.down-triangle {
+  content: "";
+  background-image: url("./assets/293632_down_triangle_icon.svg");
+  display: inline-block;
+  height: 1.175em;
+  width: 1.175em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1.5rem;
+}
+
+.thumbnail > img,
+.thumbnail-hover > img {
+  width: 21.375rem;
+  height: 27.8125rem;
+  object-fit: cover;
+}

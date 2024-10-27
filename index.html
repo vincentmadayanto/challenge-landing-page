@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kangol Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="path/to/your/tailwind.css" rel="stylesheet" />
+  </head>
+  <body class="px-9">
+    <header
+      class="flex justify-between items-center align-middle bg-white h-[72px] font-inter font-medium text-base fixed top-0 left-0 w-[100vw] px-9 shadow-sm"
+    >
+      <div class="">LOGO</div>
+      <ul class="flex justify-evenly gap-7 bg-customBlack">
+        <li><a href="">WOMEN</a></li>
+        <li><a href="">MEN</a></li>
+        <li><a href="">BOBO TOKYO</a></li>
+        <li><a href="">CARLYN</a></li>
+        <li><a href="">BRANDS</a></li>
+        <li><a href="">SALE</a></li>
+      </ul>
+      <div class="flex justify-evenly gap-2">
+        <div class="font-inter text-customBlack">User</div>
+        <div>Search</div>
+        <div>Cart</div>
+      </div>
+    </header>
+
+    <main class="h-[200vh]">
+      <section>
+        <header
+          role="hero"
+          class="flex flex-col justify-center items-center text-center gap-4 pt-36"
+        >
+          <h1 class="text-4xl font-bold mb-2">CARLYN</h1>
+          <p>
+            CARLYN, a South Korean brand, embodies New York City's essence.
+            Designer Alicia Lee blends urban sophistication from her Big Apple
+            experience into every bag. Discover the fusion of South Korean
+            craftsmanship and NYC chic in CARLYN's creations.
+          </p>
+          <p>
+            <b
+              >Bobobobo is the official distributor of Carlyn. We cannot
+              guarantee any Carlyn’s bags that are sold in stores other than
+              Bobobobo.
+            </b>
+          </p>
+          <p>&nbsp;</p>
+        </header>
+
+        <div role="container" class="grid grid-cols-4 gap-x-6 gap-y-12 py-8">
+          <div id="toolbar" class="flex">
+            <div role="container">
+              <span>44</span>
+              <span>PRODUCTS</span>
+            </div>
+          </div>
+          <div id="sorting" class="flex justify-end col-start-4">
+            <p>All Products</p>
+          </div>
+
+          <!-- Aside -->
+          <aside id="filters">
+            <div
+              id="sticky"
+              class="bg-[#F8F8F8] flex flex-col font-medium text-sm sticky top-[4.5rem]"
+            >
+              <div
+                class="p-2.5 flex justify-between border-b-[1px] border-black"
+              >
+                <div class="down-triangle"></div>
+                <button class="flex align-baseline">PRODUCT TYPE</button>
+              </div>
+              <div
+                class="p-2.5 flex justify-between border-b-[1px] border-black"
+              >
+                <div class="down-triangle"></div>
+                <button>BRAND</button>
+              </div>
+              <div
+                class="p-2.5 flex justify-between border-b-[1px] border-black"
+              >
+                <div class="down-triangle"></div>
+                <button>SIZE</button>
+              </div>
+              <div
+                class="p-2.5 flex justify-between border-b-[1px] border-black"
+              >
+                <div class="down-triangle"></div>
+                <button>COLOR</button>
+              </div>
+              <div class="p-2.5 flex justify-between">
+                <div class="down-triangle"></div>
+                <button>PRICE</button>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Contents -->
+          <div
+            role="container"
+            class="col-start-2 col-end-5 grid grid-cols-3 gap-x-6 gap-y-12"
+          >
+            <article class="product group">
+              <a href="">
+                <div class="thumbnails">
+                  <figure class="thumbnail group-hover:hidden">
+                    <img
+                      src="./src/assets/products/product-1/cozylcloudbluemodel2.webp"
+                      alt="COZY L"
+                      srcset=""
+                    />
+                  </figure>
+                  <figure class="hidden thumbnail-hover group-hover:block">
+                    <img
+                      src="./src/assets/products/product-1/cozylcloudbluemodel3.webp"
+                      alt=""
+                      srcset=""
+                    />
+                  </figure>
+                </div>
+                <div class="details text-sm pt-4">
+                  <h5 class="vendor font-medium">CARLYN</h5>
+                  <h6 class="title">COZY L</h6>
+                  <p class="mt-5 font-bold font-mono text-gray-500">
+                    Rp. 1.599.000
+                  </p>
+                </div>
+              </a>
+              <div role="swatches" class="flex gap-1 pt-2">
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-yellow-100 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-gray-200 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-green-300 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-black rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-orange-200 rounded-full align-middle"
+                  ></div>
+                </a>
+              </div>
+            </article>
+
+            <article class="product group">
+              <a href="">
+                <div class="thumbnails">
+                  <figure class="thumbnail group-hover:hidden">
+                    <img
+                      src="./src/assets/products/product-2/cozylcloudbluemodel2.webp"
+                      alt="TIA"
+                    />
+                  </figure>
+                  <figure class="thumbnail-hover hidden group-hover:block">
+                    <img
+                      src="./src/assets/products/product-2/tiadenimmodel2.webp"
+                      alt="TIA"
+                    />
+                  </figure>
+                </div>
+                <div class="details text-sm pt-4">
+                  <h5 class="vendor font-medium">CARLYN</h5>
+                  <h6 class="title">TIA</h6>
+                  <p class="mt-5 font-bold font-mono text-gray-500">
+                    Rp. 2.149.000
+                  </p>
+                </div>
+              </a>
+              <div role="swatches" class="flex gap-1 pt-2">
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-yellow-100 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-gray-200 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-green-300 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-black rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-orange-200 rounded-full align-middle"
+                  ></div>
+                </a>
+              </div>
+            </article>
+            <article class="product group">
+              <a href="">
+                <div class="thumbnails">
+                  <figure class="thumbnail group-hover:hidden">
+                    <img
+                      class="object-cover"
+                      src="./src/assets/products/product-3/TiaMiniDenim_3.webp"
+                      alt="TIA MINI"
+                      srcset=""
+                    />
+                  </figure>
+                  <figure class="hidden thumbnail-hover group-hover:block">
+                    <img
+                      src="./src/assets/products/product-3/TiaMiniDenim_4_hover.webp"
+                      alt="TIA MINI"
+                    />
+                  </figure>
+                </div>
+                <div class="details text-sm pt-4">
+                  <h5 class="vendor font-medium">CARLYN</h5>
+                  <h6 class="title">TIA MINI</h6>
+                  <p class="mt-5 font-bold font-mono text-gray-500">
+                    Rp. 1.999.000
+                  </p>
+                </div>
+              </a>
+              <div role="swatches" class="flex gap-1 pt-2">
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-yellow-100 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-gray-200 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-green-300 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-black rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-orange-200 rounded-full align-middle"
+                  ></div>
+                </a>
+              </div>
+            </article>
+            <article class="product group">
+              <a href="">
+                <div class="thumbnails">
+                  <figure class="thumbnail group-hover:hidden">
+                    <img
+                      src="./src/assets/products/product-4/240122carlyn_09_166.webp"
+                      alt="LANE"
+                    />
+                  </figure>
+                  <figure class="hidden thumbnail-hover group-hover:block">
+                    <img
+                      src="./src/assets/products/product-4/240122carlyn_09_132_hover.webp"
+                      alt="LANE"
+                    />
+                  </figure>
+                </div>
+                <div class="details text-sm pt-4">
+                  <h5 class="vendor font-medium">CARLYN</h5>
+                  <h6 class="title">LANE</h6>
+                  <p class="mt-5 font-bold font-mono text-gray-500">
+                    Rp. 1.599.000
+                  </p>
+                </div>
+              </a>
+              <div role="swatches" class="flex gap-1 pt-2">
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-yellow-100 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-gray-200 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-green-300 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-black rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-orange-200 rounded-full align-middle"
+                  ></div>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
