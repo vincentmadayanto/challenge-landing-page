@@ -14,11 +14,57 @@
     />
     <link href="path/to/your/tailwind.css" rel="stylesheet" />
   </head>
-  <body class="px-9">
-    <header
-      class="flex justify-between items-center align-middle bg-white h-[72px] font-inter font-medium text-base fixed top-0 left-0 w-[100vw] px-9 shadow-sm"
+  <body class="px-9 pt-10 relative">
+    <div
+      class="absolute container-carousel top-0 left-0 bg-black text-gray-100 text-sm font-mono z-10 w-full h-10 text-center flex items-center justify-center"
     >
-      <div class="">LOGO</div>
+      <a href="">GET FREE SHIPPING TODAY! SHOP NOW</a>
+    </div>
+    <header
+      class="flex justify-between items-center align-middle bg-white h-[72px] font-inter font-medium text-base sticky top-0 px-9 shadow-sm"
+    >
+      <a class="">
+        <svg
+          width="53"
+          height="40"
+          viewBox="0 0 53 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.6349 27.9831C16.3737 27.9831 13.7333 30.6258 13.7333 33.8898C13.7333 37.1538 16.3737 39.7965 19.6349 39.7965C22.8961 39.7965 25.5365 37.1538 25.5365 33.8898C25.5365 30.6258 22.8961 27.9831 19.6349 27.9831Z"
+            fill="black"
+          ></path>
+          <path
+            d="M6.31226 27.9831C3.93123 27.9831 1.88373 29.3925 0.947997 31.4233V22.8089H0.410645V39.5462H0.947997V36.3564C1.88373 38.3871 3.93123 39.7965 6.31226 39.7965C9.57344 39.7965 12.2139 37.1538 12.2139 33.8898C12.2139 30.6258 9.57344 27.9831 6.31226 27.9831Z"
+            fill="black"
+          ></path>
+          <path
+            d="M47.0306 27.9831C43.7695 27.9831 41.129 30.6258 41.129 33.8898C41.129 37.1538 43.7695 39.7965 47.0306 39.7965C50.2918 39.7965 52.9323 37.1538 52.9323 33.8898C52.9323 30.6258 50.2918 27.9831 47.0306 27.9831Z"
+            fill="black"
+          ></path>
+          <path
+            d="M33.708 27.9831C31.327 27.9831 29.2795 29.3925 28.3437 31.4233V22.8089H27.7971V39.5462H28.3345V36.3564C29.2702 38.3871 31.3177 39.7965 33.6987 39.7965C36.9599 39.7965 39.6004 37.1538 39.6004 33.8898C39.6096 30.6258 36.9692 27.9831 33.708 27.9831Z"
+            fill="black"
+          ></path>
+          <path
+            d="M19.6349 5.54309C16.3737 5.54309 13.7333 8.18582 13.7333 11.4498C13.7333 14.7138 16.3737 17.3565 19.6349 17.3565C22.8961 17.3565 25.5365 14.7138 25.5365 11.4498C25.5365 8.18582 22.8961 5.54309 19.6349 5.54309Z"
+            fill="black"
+          ></path>
+          <path
+            d="M6.31226 5.54308C3.93123 5.54308 1.88373 6.95253 0.947997 8.98326V0.368896H0.410645V17.1062H0.947997V13.9071C1.88373 15.9378 3.93123 17.3473 6.31226 17.3473C9.57344 17.3473 12.2139 14.7045 12.2139 11.4405C12.2139 8.18581 9.57344 5.54308 6.31226 5.54308Z"
+            fill="black"
+          ></path>
+          <path
+            d="M47.0306 17.3565C50.2918 17.3565 52.9323 14.7138 52.9323 11.4498C52.9323 8.18582 50.2918 5.54309 47.0306 5.54309C43.7695 5.54309 41.129 8.18582 41.129 11.4498C41.129 14.7138 43.7695 17.3565 47.0306 17.3565Z"
+            fill="black"
+          ></path>
+          <path
+            d="M33.708 5.54308C31.327 5.54308 29.2795 6.95253 28.3437 8.98326V0.368896H27.7971V17.1062H28.3345V13.9071C29.2702 15.9378 31.3177 17.3473 33.6987 17.3473C36.9599 17.3473 39.6004 14.7045 39.6004 11.4405C39.6096 8.18581 36.9692 5.54308 33.708 5.54308Z"
+            fill="black"
+          ></path>
+        </svg>
+      </a>
       <ul class="flex justify-evenly gap-7 bg-customBlack">
         <li><a href="">WOMEN</a></li>
         <li><a href="">MEN</a></li>
@@ -27,18 +73,57 @@
         <li><a href="">BRANDS</a></li>
         <li><a href="">SALE</a></li>
       </ul>
-      <div class="flex justify-evenly gap-2">
-        <div class="font-inter text-customBlack">User</div>
-        <div>Search</div>
-        <div>Cart</div>
-      </div>
+      <nav class="flex justify-evenly gap-4">
+        <a href="">
+          <svg
+            width="20"
+            height="21"
+            viewBox="0 0 20 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.54911 10.1547C8.2361 10.1547 7.16183 9.72419 6.32628 8.86308C5.49074 8.00197 5.07296 6.89483 5.07296 5.54165C5.07296 4.18848 5.49074 3.08134 6.32628 2.22022C7.16183 1.35911 8.2361 0.928558 9.54911 0.928558C10.8621 0.928558 11.9364 1.35911 12.7719 2.22022C13.6075 3.08134 14.0253 4.18848 14.0253 5.54165C14.0253 6.89483 13.6075 8.00197 12.7719 8.86308C11.9364 9.72419 10.8621 10.1547 9.54911 10.1547ZM0 20.0268V17.1359C0 16.3568 0.188993 15.6905 0.566978 15.1369C0.944964 14.5833 1.43237 14.163 2.02919 13.876C3.36208 13.2609 4.64027 12.7996 5.86375 12.4921C7.08723 12.1845 8.31568 12.0307 9.54911 12.0307C10.7825 12.0307 12.006 12.1896 13.2195 12.5074C14.4331 12.8252 15.7055 13.2834 17.0368 13.8819C17.6595 14.1716 18.1588 14.5915 18.5345 15.1418C18.9103 15.6921 19.0982 16.3568 19.0982 17.1359V20.0268H0ZM1.79046 18.1815H17.3078V17.1359C17.3078 16.8079 17.2133 16.4952 17.0243 16.1979C16.8353 15.9006 16.6015 15.6802 16.323 15.5367C15.0498 14.9011 13.886 14.4654 12.8316 14.2296C11.7772 13.9939 10.6831 13.876 9.54911 13.876C8.41515 13.876 7.31103 13.9939 6.23676 14.2296C5.16249 14.4654 3.99869 14.9011 2.74537 15.5367C2.46685 15.6802 2.23807 15.9006 2.05903 16.1979C1.87998 16.4952 1.79046 16.8079 1.79046 17.1359V18.1815ZM9.54911 8.30951C10.325 8.30951 10.9666 8.0481 11.4738 7.52528C11.9811 7.00247 12.2348 6.34126 12.2348 5.54165C12.2348 4.74205 11.9811 4.08084 11.4738 3.55802C10.9666 3.03521 10.325 2.7738 9.54911 2.7738C8.77324 2.7738 8.13166 3.03521 7.62436 3.55802C7.11707 4.08084 6.86342 4.74205 6.86342 5.54165C6.86342 6.34126 7.11707 7.00247 7.62436 7.52528C8.13166 8.0481 8.77324 8.30951 9.54911 8.30951Z"
+              fill="black"
+            ></path>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 21 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.907 20.0268L11.6275 13.0506C11.074 13.5104 10.4285 13.8685 9.69117 14.1249C8.95383 14.3813 8.16923 14.5095 7.33736 14.5095C5.34151 14.5095 3.65237 13.8464 2.26994 12.5201C0.887506 11.1938 0.196289 9.59349 0.196289 7.71903C0.196289 5.84458 0.888253 4.24422 2.27218 2.91796C3.65611 1.59169 5.33066 0.928558 7.29584 0.928558C9.26102 0.928558 10.931 1.59169 12.3057 2.91796C13.6804 4.24422 14.3677 5.84591 14.3677 7.72301C14.3677 8.48075 14.2386 9.21329 13.9802 9.92063C13.7219 10.628 13.3344 11.2911 12.8177 11.91L20.1249 18.8597L18.907 20.0268ZM7.30968 12.918C8.80894 12.918 10.0833 12.4096 11.1328 11.3928C12.1823 10.376 12.707 9.1514 12.707 7.71903C12.707 6.28667 12.1823 5.06208 11.1328 4.04528C10.0833 3.02848 8.80894 2.52008 7.30968 2.52008C5.79506 2.52008 4.50761 3.02848 3.44736 4.04528C2.38712 5.06208 1.857 6.28667 1.857 7.71903C1.857 9.1514 2.38712 10.376 3.44736 11.3928C4.50761 12.4096 5.79506 12.918 7.30968 12.918Z"
+              fill="black"
+            ></path>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            width="16"
+            height="21"
+            viewBox="0 0 16 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.70246 20.8571C1.30804 20.8571 0.962925 20.7077 0.667111 20.4087C0.371296 20.1098 0.223389 19.7611 0.223389 19.3625V6.40892C0.223389 6.01034 0.371296 5.66159 0.667111 5.36267C0.962925 5.06374 1.30804 4.91427 1.70246 4.91427H4.4141V4.66517C4.4141 3.61892 4.77154 2.73459 5.48643 2.01217C6.20131 1.28976 7.07643 0.928558 8.11178 0.928558C9.14713 0.928558 10.0223 1.28976 10.7371 2.01217C11.452 2.73459 11.8095 3.61892 11.8095 4.66517V4.91427H14.5211C14.9155 4.91427 15.2606 5.06374 15.5565 5.36267C15.8523 5.66159 16.0002 6.01034 16.0002 6.40892V19.3625C16.0002 19.7611 15.8523 20.1098 15.5565 20.4087C15.2606 20.7077 14.9155 20.8571 14.5211 20.8571H1.70246ZM1.70246 19.3625H14.5211V6.40892H11.8095V8.65088C11.8095 8.86262 11.7382 9.04011 11.5956 9.18335C11.453 9.32658 11.2764 9.3982 11.0656 9.3982C10.8548 9.3982 10.6796 9.32658 10.5399 9.18335C10.4002 9.04011 10.3304 8.86262 10.3304 8.65088V6.40892H5.89317V8.65088C5.89317 8.86262 5.82189 9.04011 5.67932 9.18335C5.53674 9.32658 5.36007 9.3982 5.14932 9.3982C4.93855 9.3982 4.76332 9.32658 4.62363 9.18335C4.48394 9.04011 4.4141 8.86262 4.4141 8.65088V6.40892H1.70246V19.3625ZM5.89317 4.91427H10.3304V4.66517C10.3304 4.03409 10.1167 3.50267 9.68946 3.07088C9.26217 2.63909 8.73628 2.4232 8.11178 2.4232C7.48728 2.4232 6.96139 2.63909 6.5341 3.07088C6.10681 3.50267 5.89317 4.03409 5.89317 4.66517V4.91427Z"
+              fill="black"
+            ></path>
+          </svg>
+        </a>
+      </nav>
     </header>
 
-    <main class="h-[200vh]">
+    <main class="pt-24 pb-80">
       <section>
         <header
           role="hero"
-          class="flex flex-col justify-center items-center text-center gap-4 pt-36"
+          class="flex flex-col justify-center items-center text-center gap-4"
         >
           <h1 class="text-4xl font-bold mb-2">CARLYN</h1>
           <p>
@@ -65,7 +150,10 @@
             </div>
           </div>
           <div id="sorting" class="flex justify-end col-start-4">
-            <p>All Products</p>
+            <div class="flex align-baseline gap-2">
+              <span>All Products</span>
+              <div class="down-triangle mt-[0.25rem] w-4 h-4"></div>
+            </div>
           </div>
 
           <!-- Aside -->
@@ -110,6 +198,7 @@
             role="container"
             class="col-start-2 col-end-5 grid grid-cols-3 gap-x-6 gap-y-12"
           >
+            <!-- Product 1 -->
             <article class="product group">
               <a href="">
                 <div class="thumbnails">
@@ -180,6 +269,7 @@
               </div>
             </article>
 
+            <!-- Product 2 -->
             <article class="product group">
               <a href="">
                 <div class="thumbnails">
@@ -247,6 +337,8 @@
                 </a>
               </div>
             </article>
+
+            <!-- Product 3 -->
             <article class="product group">
               <a href="">
                 <div class="thumbnails">
@@ -316,6 +408,8 @@
                 </a>
               </div>
             </article>
+
+            <!-- Product 4 -->
             <article class="product group">
               <a href="">
                 <div class="thumbnails">
@@ -383,11 +477,258 @@
                 </a>
               </div>
             </article>
+
+            <!-- Product 5 -->
+            <article class="product group">
+              <a href="">
+                <div class="thumbnails">
+                  <figure class="thumbnail group-hover:hidden">
+                    <img
+                      src="./src/assets/products/product-5/TeamAlpha_Carlyn_0624_0514.webp"
+                      alt="COZY"
+                    />
+                  </figure>
+                  <figure class="hidden thumbnail-hover group-hover:block">
+                    <img
+                      src="./src/assets/products/product-5//TeamAlpha_Carlyn_0624_0515_hover.webp"
+                      alt="COZY"
+                    />
+                  </figure>
+                </div>
+                <div class="details text-sm pt-4">
+                  <h5 class="vendor font-medium">CARLYN</h5>
+                  <h6 class="title">COZY</h6>
+                  <p class="mt-5 font-bold font-mono text-gray-500">
+                    Rp. 1.449.000
+                  </p>
+                </div>
+              </a>
+              <div role="swatches" class="flex gap-1 pt-2">
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-yellow-100 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-gray-200 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-green-300 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-black rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-orange-200 rounded-full align-middle"
+                  ></div>
+                </a>
+              </div>
+            </article>
+
+            <!-- Product 6 -->
+            <article class="product group">
+              <a href="">
+                <div class="thumbnails">
+                  <figure class="thumbnail group-hover:hidden">
+                    <img
+                      src="./src/assets/products/product-6/230922carlyn_08_109.webp"
+                      alt="POING COTTON CANDY"
+                    />
+                  </figure>
+                  <figure class="hidden thumbnail-hover group-hover:block">
+                    <img
+                      src="./src/assets/products/product-6/230922carlyn_08_115_hover.webp"
+                      alt="POING COTTON CANDY"
+                    />
+                  </figure>
+                </div>
+                <div class="details text-sm pt-4">
+                  <h5 class="vendor font-medium">CARLYN</h5>
+                  <h6 class="title">POING COTTON CANDY</h6>
+                  <p class="mt-5 font-bold font-mono text-gray-500">
+                    Rp. 1.449.000
+                  </p>
+                </div>
+              </a>
+              <div role="swatches" class="flex gap-1 pt-2">
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-yellow-100 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-gray-200 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-green-300 rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-black rounded-full align-middle"
+                  ></div>
+                </a>
+                <a
+                  href=""
+                  class="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center"
+                >
+                  <div
+                    class="w-3.5 h-3.5 bg-orange-200 rounded-full align-middle"
+                  ></div>
+                </a>
+              </div>
+            </article>
           </div>
         </div>
+        <div class="relative inline-block text-left group"></div>
       </section>
     </main>
 
-    <footer></footer>
+    <!-- Footer -->
+    <footer class="bg-[#F8F8F8] w-full absolute bottom-0 left-0 text-sm py-9">
+      <div role="container">
+        <div class="blocks grid grid-cols-4 bg px-20">
+          <!-- Newsletter -->
+          <div class="block-newsletter flex flex-col gap-5">
+            <h6 class="font-semibold">NEWSLETTER</h6>
+            <p>
+              We'll keep you updated without <br />
+              cluttering your inbox
+            </p>
+            <div role="container">
+              <div class="flex flex-col gap-2">
+                <div class="input-email">
+                  <input
+                    class="box-border h-10 w-52 border border-black pl-5"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="ENTER MAIL"
+                    aria-label="ENTER MAIL"
+                  />
+                </div>
+                <div class="input-gender flex gap-6">
+                  <div class="women-radio">
+                    <input
+                      id="gender-w"
+                      type="radio"
+                      value="Women"
+                      name="genders"
+                      class="mr-1"
+                    />
+                    <label for="gender-w">Women</label>
+                  </div>
+                  <div class="men-radio">
+                    <input
+                      id="gender-m"
+                      type="radio"
+                      value="Men"
+                      name="genders"
+                      class="mr-1"
+                    />
+                    <label for="gender-m">Men</label>
+                  </div>
+                </div>
+                <div class="button-subscribe">
+                  <button
+                    class="box-border text-base bg-black text-white px-4 py-2 w-52 h-10"
+                    type="button"
+                  >
+                    SUBSCRIBE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Customer Care -->
+          <div class="block-customer-care flex flex-col gap-5">
+            <h6 class="font-semibold">CUSTOMER CARE</h6>
+            <nav class="links flex flex-col gap-3">
+              <a href="">Contact Us</a>
+              <a href="">Shipping & Delivery</a>
+              <a href="">Returns & Exchanges</a>
+              <a href="">Refund Policy</a>
+            </nav>
+          </div>
+
+          <!-- BOBOBOBO -->
+          <div class="block-bobobobo flex flex-col gap-5">
+            <h6 class="font-semibold">BOBOBOBO</h6>
+            <nav class="links flex flex-col gap-3">
+              <a href="">About Us</a>
+              <a href="">FAQs</a>
+              <a href="">Terms of Service</a>
+              <a href="">Our Stores</a>
+            </nav>
+          </div>
+
+          <!-- Connect With Us -->
+          <div class="block-connect-us flex flex-col gap-6">
+            <h6 class="font-semibold">CONNECT WITH US</h6>
+            <nav class="links flex items-baseline gap-2">
+              <a href="https://www.instagram.com/_bobobobo_" target="_blank">
+                <img
+                  src="./src/assets/svg/instagram-icon/instagram-167-svgrepo-com.svg"
+                  alt="Instagram"
+                  class="h-8 w-8"
+                />
+              </a>
+              <a href="https://www.facebook.com/like.bobobobo" target="_blank">
+                <img
+                  src="./src/assets/svg/facebook-icon/facebook-svgrepo-com.svg"
+                  alt="Facebook"
+                  class="h-[33px] w-[33px]"
+                />
+              </a>
+              <a href="https://www.tiktok.com/@bobo_tokyo" target="_blank">
+                <img
+                  src="./src/assets/svg/tiktok-icon/tiktok-svgrepo-com.svg"
+                  alt="Tiktok"
+                  class="h-[31px] w-[31px]"
+                />
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
